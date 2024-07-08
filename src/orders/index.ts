@@ -4,3 +4,4 @@ export * from './Order';
 export * from './OrderCreatedData';
 export * from './Shipping';
 export * from './Transaction';
+export * from './TransactionDetails';
