@@ -6,3 +6,4 @@ export const EndpointTransactionRegister: string = '/transaction/register'
 export const EndpointTransactionRequest: string = '/trnRequest'
 export const EndpointTransactionVerify: string = '/transaction/verify'
 export const EndpointRefund: string = '/transaction/refund'
+export const EndpointDetails: string = '/transaction/by/sessionId';

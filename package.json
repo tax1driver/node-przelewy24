@@ -1,5 +1,5 @@
 {
-  "name": "@ingameltd/node-przelewy24",
+  "name": "@tax1driver/node-przelewy24",
   "version": "2.1.0",
   "description": "A simple library for connecting przelewy24 service",
   "main": "dist/index.js",
