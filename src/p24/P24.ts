@@ -264,6 +264,7 @@ export class P24 {
 
     public async getTransactionDetails(sessionId: string): Promise<TransactionDetails> {
         try {
+            console.log(EndpointDetails + `/${sessionId}`);
             const { data } = await this.client.get(EndpointDetails + `/${sessionId}`);
 
             const resp = <SuccessResponse<TransactionDetails>>data;
